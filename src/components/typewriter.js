@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useMemo } from 'react';
 
 const Typewriter = () => {
-    const textArray = ["The premier luxury property developer in Dubai DAMAC Properties is part of DAMAC Group that has been shaping the Middle East's luxury real estate market since 1982, delivering iconic residential, commercial and leisure properties for sale across the region and beyond"];
+    const textArray = useMemo(() => ["The premier luxury property developer in Dubai DAMAC Properties is part of DAMAC Group that has been shaping the Middle East's luxury real estate market since 1982, delivering iconic residential, commercial and leisure properties for sale across the region and beyond"], []);
     const [textIndex, setTextIndex] = useState(0);
     const [charIndex, setCharIndex] = useState(0);
     const speed = 20; // Typing speed in milliseconds

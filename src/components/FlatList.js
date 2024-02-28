@@ -7,7 +7,6 @@ import poolnightImage from '../imgs/pool night 1.jpg';
 import roofViewImage from '../imgs/roof view.jpg';
 import roofImage from '../imgs/roof.jpg';
 import indoorPoolImage from "../imgs/Indoor Pool.jpg";
-import Typewriter from "./typewriter";
 const flatsData = [
     {
         slug: "CanaryGarden",

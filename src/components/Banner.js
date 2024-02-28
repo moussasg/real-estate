@@ -30,7 +30,7 @@ const Banner = () => {
     return (
         <div className="banner d-flex align-items-center">
    
-  <img src={banner}></img>
+  <img src={banner} alt="banner"></img>
    
             <div className="bg-custom">
                 <div className="container">

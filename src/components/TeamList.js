@@ -1,5 +1,4 @@
 import React from "react";
-import Title from "./Title";
 import TeamItem from "./TeamItem";
 import parktoseaone from "../imgs/park to sea 1.jpg";
 import safapark from "../imgs/safa park View.jpg";
@@ -45,7 +44,8 @@ const TeamList = () => {
   return (
     <section className="section-teams">
       <div className="container">
-        <Title title="Architectures" description="Lorem ipsum dolor sit ame" />
+        <h1 className="text-center" style={{color:"#3a4867de"}}>Architectures</h1>
+        <br></br>
         <div className="row">
           {teamItems.map((item, index) => (
             <TeamItem key={index} image={item.image} title={item.title} description={item.description} />

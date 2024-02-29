@@ -1,5 +1,4 @@
 import Slider from "react-slick";
-import Title from "./Title";
 import ReferenceItem from "./ReferenceItem";
 import eventoneone from "../imgs/one.jpg";
 import eventtwo from "../imgs/two.png";
@@ -8,9 +7,7 @@ import eventfoor from "../imgs/foor.jpg";
 import eventfive from "../imgs/five.jpg";
 
 const References = () => {
-  const title = {
-    text: "Apartments",
-  };
+
   const latestevent = [
     {
       image: eventoneone,
@@ -77,7 +74,8 @@ const References = () => {
   return (
     <section className="section-references">
       <div className="container">
-        <Title title={title.text} description={title.description} />
+        <h1 className='text-center' style={{color:"#3a4867de"}}>Apartments</h1>
+        <br></br>
         <div className="row">
           <div className="col-lg-12">
             <Slider {...settings}>

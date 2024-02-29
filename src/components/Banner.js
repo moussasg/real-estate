@@ -30,7 +30,14 @@ const Banner = () => {
     return (
         <div className="banner d-flex align-items-center">
    
-  <img src={banner} alt="banner"></img>
+  <div alt="banner" style={{ 
+    backgroundImage: `url(${banner})`, 
+    backgroundSize: 'cover', 
+    backgroundPosition: 'center',
+    width: '100%',
+    height:"100vh"
+}}>
+</div>
    
             <div className="bg-custom">
                 <div className="container">

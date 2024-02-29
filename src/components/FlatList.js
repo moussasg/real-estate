@@ -1,4 +1,3 @@
-import Title from "./Title";
 import FlatItem from "./FlatItem";
 
 import canaryGardenImage from '../imgs/canary garden.jpg';
@@ -7,7 +6,6 @@ import poolnightImage from '../imgs/pool night 1.jpg';
 import roofViewImage from '../imgs/roof view.jpg';
 import roofImage from '../imgs/roof.jpg';
 import indoorPoolImage from "../imgs/Indoor Pool.jpg";
-import Typewriter from "./typewriter";
 const flatsData = [
     {
         slug: "CanaryGarden",
@@ -52,19 +50,12 @@ const flatsData = [
 ];
 
 const FlatList = () => {
-    const title = {
-        text: "THE",
-        subtext: "SAPHIRE",
-        location:"sheikh zayed road"
-    };
 
     return (
         <section className="section-all-re">
             <div className="container">
-                <Typewriter/>
                 <br></br>
-                <Title title={title.text} subtext={title.subtext} location={title.location}/>
-                <h1 class='text-center'>Amenities</h1>
+                <h1 class='text-center' style={{color:"#3a4867de"}}>Amenities</h1>
                 <br></br>
                 <div className="row">
                     {flatsData.map(flat => (

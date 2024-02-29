@@ -29,9 +29,14 @@ const Header = () => {
                                 <li className="nav-item">
                                     <Link className="nav-link" to="#">Category <i className="fas fa-chevron-down"></i></Link>
                                     <ul className="sub-ul">
-                                        <li><Link to="#">item</Link></li>
-                                        <li><Link to="#">item</Link></li>
-                                        <li><Link to="#">item</Link></li>
+                                        <li><Link to="#">Architectures</Link></li>
+                                        <li><Link to="#">Amenities</Link></li>
+                                        <li><Link to="#">LOBBY</Link></li>
+                                        <li><Link to="#">Apartment</Link></li>
+                                        <li><Link to="#">Gym</Link></li>
+                                        <li><Link to="#">SPA</Link></li>
+                                        <li><Link to="#">Penthouse</Link></li>
+
                                     </ul>
                                 </li>
                                 <li className="nav-item">

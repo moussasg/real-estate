@@ -17,7 +17,7 @@ const FlatItem = ({slug , image , price , description}) => {
                             <i className="fas fa-check-circle"></i> <span>{`${description}`}</span>
                         </div>
                         <div>
-                            <i className="fas fa-check-circle"></i> <span> Lorem </span>
+                            <i className="fas fa-check-circle"></i> <span> Discover </span>
                         </div>
                         <Link to={`/flat/${slug}`} className="item-title">
                             <button className="btn btn-detail">View</button>

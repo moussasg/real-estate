@@ -1,7 +1,12 @@
 import Slider from "react-slick";
 import Title from "./Title";
 import ReferenceItem from "./ReferenceItem";
-import canaryGardenImage from "../banner.jpg";
+import eventoneone from "../imgs/one.jpg";
+import eventtwo from "../imgs/two.png";
+import eventtree from "../imgs/tree.jpg";
+import eventfoor from "../imgs/foor.jpg";
+import eventfive from "../imgs/five.jpg";
+
 const References = () => {
   const title = {
     text: "Our Latest",
@@ -9,31 +14,37 @@ const References = () => {
   };
   const latestevent = [
     {
-      image: canaryGardenImage,
-      title:"DAMAC PROPERTIES",
-      desciption:"Know More"
+      image: eventoneone,
+      desciption: "",
     },
     {
-      image: canaryGardenImage,
-      title:"DAMAC INTERNATIONAL",
-      desciption:"Know More"
+      image: eventtwo,
+      title: "DAMAC PROPERTIES",
+      desciption: "Know More",
     },
     {
-      image: canaryGardenImage,
+      image: eventtree,
+      title: "DAMAC INTERNATIONAL",
+      desciption: "Know More",
     },
     {
-      image: canaryGardenImage,
-      desciption:""
-
+      image: eventfive,
     },
     {
-      image: canaryGardenImage,
-      desciption:""
-
+      image: eventfoor,
+      desciption: "",
     },
     {
-      image: canaryGardenImage,
-      desciption:""
+      image: eventfoor,
+      desciption: "",
+    },
+    {
+      image: eventfoor,
+      desciption: "",
+    },
+    {
+      image: eventfoor,
+      desciption: "",
     },
   ];
   const settings = {
@@ -71,11 +82,9 @@ const References = () => {
         <div className="row">
           <div className="col-lg-12">
             <Slider {...settings}>
-
-              {latestevent.map((xe , index) => ( 
+              {latestevent.map((xe, index) => (
                 <ReferenceItem key={index} images={xe.image} />
-              )  )}
-        
+              ))}
             </Slider>
           </div>
         </div>

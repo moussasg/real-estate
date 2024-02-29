@@ -7,6 +7,7 @@ import poolnightImage from '../imgs/pool night 1.jpg';
 import roofViewImage from '../imgs/roof view.jpg';
 import roofImage from '../imgs/roof.jpg';
 import indoorPoolImage from "../imgs/Indoor Pool.jpg";
+import Typewriter from "./typewriter";
 const flatsData = [
     {
         slug: "CanaryGarden",
@@ -60,9 +61,11 @@ const FlatList = () => {
     return (
         <section className="section-all-re">
             <div className="container">
-               {/* <Typewriter/>*/} 
+                <Typewriter/>
                 <br></br>
                 <Title title={title.text} subtext={title.subtext} location={title.location}/>
+                <h1 class='text-center'>Amenities</h1>
+                <br></br>
                 <div className="row">
                     {flatsData.map(flat => (
                         <FlatItem key={flat.slug} slug={flat.slug} image={flat.image} price={flat.price} description={flat.description}/>

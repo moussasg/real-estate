@@ -9,8 +9,7 @@ import eventfive from "../imgs/five.jpg";
 
 const References = () => {
   const title = {
-    text: "Our Latest",
-    description: "Events",
+    text: "Best Architecture",
   };
   const latestevent = [
     {

@@ -6,6 +6,7 @@ export default function Prices() {
 <div class="container">
     <table class="table table-striped">
       <thead>
+      <h4 clas='text-center'>Best Price</h4>
         <tr>
           <th scope="col">Unit</th>
           <th scope="col">Bedrooms</th>

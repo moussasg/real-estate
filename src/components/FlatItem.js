@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 
 const FlatItem = ({slug , image , price , description}) => {
     return (
@@ -19,9 +18,9 @@ const FlatItem = ({slug , image , price , description}) => {
                         <div>
                             <i className="fas fa-check-circle"></i> <span> Discover </span>
                         </div>
-                        <Link to={`/flat/${slug}`} className="item-title">
+                        <div className="item-title">
                             <button className="btn btn-detail">View</button>
-                        </Link>
+                        </div>
                     </div>
                 </div>
             </div>

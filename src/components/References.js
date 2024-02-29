@@ -72,7 +72,7 @@ const References = () => {
     ],
   };
   return (
-    <section className="section-references">
+    <section className="section-references wow animate__animated animate__backInLeft animate__slow">
       <div className="container">
         <h1 className='text-center' style={{color:"#3a4867de"}}>Apartments</h1>
         <br></br>

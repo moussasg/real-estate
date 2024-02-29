@@ -54,8 +54,8 @@ const Serviceslist = () => {
   return (
     <section className="section-teams">
       <div className="container">
-        <h1 className='text-center'>THE SAPHIRE</h1>
-        <p className='text-center'>SHEIKH ZAYED ROAD</p>
+        <h1 className='text-center wow animate__animated animate__fadeInUp'>THE SAPHIRE</h1>
+        <p className='text-center wow animate__animated animate__fadeInUp'>SHEIKH ZAYED ROAD</p>
         <br></br>
         <Typewriter/>
         <br></br>
@@ -64,9 +64,9 @@ const Serviceslist = () => {
         <div className="container">
     <div className="row align-items-center">
         <div className="col-md-6 order-md-2">
-            <img src={spa} alt="spa" className="img-fluid rounded-end"/>
+            <img src={spa} alt="spa" className="img-fluid rounded-end wow animate__animated animate__backInRight animate__slow"/>
         </div>
-        <div className="col-md-6 order-md-1 p-4">
+        <div className="col-md-6 order-md-1 p-4 wow animate__animated animate__fadeInUp">
             <h2 style={{ color: '#212529', fontWeight: 'bold' }}>Why Choose DAMAC Properties?</h2>
             <p style={{ color: '#6c757d' }}>DAMAC Properties has been at the forefront of the Middle East's luxury real estate market since 2002, delivering luxury residential, commercial, and leisure properties across the region.</p>
             <ul style={{ color: '#6c757d' }}>
@@ -81,9 +81,9 @@ const Serviceslist = () => {
 <br></br>
 <br></br>
 
-        <h1 className='text-center'>Category</h1>
+        <h1 className='text-center wow animate__animated animate__fadeInUp'>Category</h1>
         <br></br>
-        <div className="row">
+        <div className="row wow animate__animated animate__fadeInUp animate__slow">
           {services.map((item, index) => (
             <Services key={index} image={item.image} title={item.title} description={item.description} />
           ))}

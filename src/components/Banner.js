@@ -42,7 +42,7 @@ const Banner = () => {
             <div className="bg-custom">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-6 mx-auto">
+                        <div className="col-lg-6 mx-auto wow animate__animated animate__fadeInUp">
                             <div className="banner-area text-center pt-4 pb-4">
                                 <p>Saphire Damac: A Haven of Luxury Living</p>
                                 <h4 className="mt-2 mb-4">Discover Exquisite Living: Saphire Damac - Where Luxury Meets Lifestyle</h4>

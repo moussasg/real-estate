@@ -1,7 +1,7 @@
 import logo from "./damacbg.jpg"
 const About = () => {
     return (
-        <section className="about">
+        <section className="about" style={{overflowX:"hidden"}}>
             <div className="page-top">
                 <div className="container">
                     <div className="row">
@@ -18,11 +18,11 @@ const About = () => {
                         <div className="col-lg-6 wow animate__animated animate__fadeInRight">
                             <img src={logo} alt="product" className="w-100" />
                         </div>
-                        <div className="col-lg-6 wow animate__animated animate__fadeInLeft">
+                        <div className="col-lg-6 wow animate__animated animate__fadeInLeft p-3">
                             <div className="about-item">
-                                <div className="title">
+                                <h4>
                                 DAMAC Properties is a leading luxury real estate developer in the Middle East
-                            </div>
+                            </h4>
                                 <div className="about-text">
                                 with a track record of delivering some of the most iconic and innovative properties in the region. Founded in 2002, the company has quickly become a household name in the industry, with a reputation for excellence and a commitment to quality that is second to none.
                             </div>

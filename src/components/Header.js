@@ -1,9 +1,15 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import damaclogo from "../imgs/damaclogo.png";
 
 const Header = () => {
     const [showCategory, setShowCategory] = useState(false);
+    const location = useLocation();
+
+    useEffect(() => {
+        // Hide the "Category" dropdown when the location changes
+        setShowCategory(false);
+    }, [location]);
 
     const toggleCategory = () => {
         setShowCategory(!showCategory);
@@ -37,15 +43,17 @@ const Header = () => {
                                 <li className="nav-item">
                                     <Link className="nav-link" to="/about">About</Link>
                                 </li>
-                                <li className="nav-item">
-                                    <div className="nav-link" style={{ cursor: "pointer" }}>Category <i className="fas fa-chevron-down"></i></div>
-                                    <ul className={`sub-ul ${showCategory ? "show" : ""}`}>
-                                        <li><Link to="#" onClick={() => handleScrollToElement("architectures")}>Architectures</Link></li>
-                                        <li><Link to="#" onClick={() => handleScrollToElement("amenities")}>Amenities</Link></li>
-                                        <li><Link to="#" onClick={() => handleScrollToElement("apartment")}>Apartment</Link></li>
-                                        <li><Link to="#" onClick={() => handleScrollToElement("gym")}>Gym</Link></li>
-                                    </ul>
-                                </li>
+                                {location.pathname !== "/about" && location.pathname !== "/contact" && (
+                                    <li className="nav-item">
+                                        <a className="nav-link" style={{ cursor: "pointer" }}>Category <i className="fas fa-chevron-down"></i></a>
+                                        <ul className={`sub-ul ${showCategory ? "show" : ""}`}>
+                                            <li><Link to="#" onClick={() => handleScrollToElement("architectures")}>Architectures</Link></li>
+                                            <li><Link to="#" onClick={() => handleScrollToElement("amenities")}>Amenities</Link></li>
+                                            <li><Link to="#" onClick={() => handleScrollToElement("apartment")}>Apartment</Link></li>
+                                            <li><Link to="#" onClick={() => handleScrollToElement("gym")}>Gym</Link></li>
+                                        </ul>
+                                    </li>
+                                )}
                                 <li className="nav-item">
                                     <Link className="nav-link" to="/contact">Contact</Link>
                                 </li>

@@ -15,10 +15,10 @@ const About = () => {
             <div className="page-content">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 wow animate__animated animate__fadeInRight">
                             <img src={logo} alt="product" className="w-100" />
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 wow animate__animated animate__fadeInLeft">
                             <div className="about-item">
                                 <div className="title">
                                 DAMAC Properties is a leading luxury real estate developer in the Middle East

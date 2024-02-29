@@ -44,7 +44,7 @@ const TeamList = () => {
   return (
     <section className="section-teams">
       <div className="container">
-        <h1 className="text-center" style={{color:"#3a4867de"}}>Architectures</h1>
+        <h1 className="text-center" style={{color:"#3a4867de"}} id='architectures'>Architectures</h1>
         <br></br>
         <div className="row">
           {teamItems.map((item, index) => (

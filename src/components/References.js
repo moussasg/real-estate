@@ -74,7 +74,7 @@ const References = () => {
   return (
     <section className="section-references">
       <div className="container">
-        <h1 className='text-center' style={{color:"#3a4867de"}}>Apartments</h1>
+        <h1 className='text-center' style={{color:"#3a4867de"}} id='apartment'>Apartments</h1>
         <br></br>
         <div className="row">
           <div className="col-lg-12">

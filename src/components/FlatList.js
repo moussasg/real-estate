@@ -55,7 +55,7 @@ const FlatList = () => {
         <section className="section-all-re">
             <div className="container">
                 <br></br>
-                <h1 class='text-center' style={{color:"#3a4867de"}}>Amenities</h1>
+                <h1 class='text-center' style={{color:"#3a4867de"}} id='amenities'>Amenities</h1>
                 <br></br>
                 <div className="row">
                     {flatsData.map(flat => (

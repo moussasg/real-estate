@@ -6,7 +6,7 @@ export default function Gym() {
   return (
     <div>
      <div class="container">
-        <h1 class='text-center text-muted-50 wow animate__animated animate__fadeInUp animate__slow' style={{color:"#3a4867de"}}>Gym</h1>
+        <h1 class='text-center text-muted-50 wow animate__animated animate__fadeInUp animate__slow' style={{color:"#3a4867de"}} id='gym'>Gym</h1>
         <br></br>
   <div class="row align-items-center">
     <div class="col-md-6 wow animate__animated animate__fadeInLeft animate__slow">

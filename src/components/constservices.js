@@ -6,9 +6,6 @@ import spa from "../imgs/SPA/spa.jpg"
 import lobby from "../imgs/LOBBY/lobby.jpg"
 import Penthouse from "../imgs/Penthouse/penthouse.jpg"
 import Amenities from "../imgs/amenities/amen.jpg"
-
-
-
 import Services from "./services";
 import Typewriter from "./typewriter";
 
@@ -64,9 +61,9 @@ const Serviceslist = () => {
         <div className="container">
     <div className="row align-items-center">
         <div className="col-md-6 order-md-2">
-            <img src={spa} alt="spa" className="img-fluid rounded-end wow animate__animated animate__backInRight animate__slow"/>
+            <img src={spa} alt="spa" className="img-fluid rounded-end wow animate__animated animate__fadeInLeft animate__slow"/>
         </div>
-        <div className="col-md-6 order-md-1 p-4 wow animate__animated animate__fadeInUp">
+        <div className="col-md-6 order-md-1 p-4 wow animate__animated animate__fadeInRight">
             <h2 style={{ color: '#212529', fontWeight: 'bold' }}>Why Choose DAMAC Properties?</h2>
             <p style={{ color: '#6c757d' }}>DAMAC Properties has been at the forefront of the Middle East's luxury real estate market since 2002, delivering luxury residential, commercial, and leisure properties across the region.</p>
             <ul style={{ color: '#6c757d' }}>

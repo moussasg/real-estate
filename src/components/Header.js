@@ -1,7 +1,21 @@
-import React from "react"
-import {Link} from "react-router-dom"
-import damaclogo from "../imgs/damaclogo.png"
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import damaclogo from "../imgs/damaclogo.png";
+
 const Header = () => {
+    const [showCategory, setShowCategory] = useState(false);
+
+    const toggleCategory = () => {
+        setShowCategory(!showCategory);
+    };
+
+    const handleScrollToElement = (id) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
     return (
         <div className="header">
             <div className="container">
@@ -9,31 +23,27 @@ const Header = () => {
                     <div className="container-fluid">
                         <Link className="navbar-brand" to="/">
                             <div className="d-flex align-items-center">
-                               <img src={damaclogo} alt="damaclogo" className="w-25"></img>
+                                <img src={damaclogo} alt="damaclogo" className="w-25" />
                             </div>
                         </Link>
-                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <button className="navbar-toggler" type="button" onClick={toggleCategory}>
                             <span className="navbar-toggler-icon"></span>
                         </button>
-                        <div className="collapse navbar-collapse" id="navbarNav">
+                        <div className={`collapse navbar-collapse ${showCategory ? "show" : ""}`} id="navbarNav">
                             <ul className="navbar-nav ms-auto">
                                 <li className="nav-item">
                                     <Link className="nav-link" to="/">Home</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link  className="nav-link" to="/about">About</Link>
+                                    <Link className="nav-link" to="/about">About</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="#">Category <i className="fas fa-chevron-down"></i></Link>
-                                    <ul className="sub-ul">
-                                        <li><Link to="#">Architectures</Link></li>
-                                        <li><Link to="#">Amenities</Link></li>
-                                        <li><Link to="#">LOBBY</Link></li>
-                                        <li><Link to="#">Apartment</Link></li>
-                                        <li><Link to="#">Gym</Link></li>
-                                        <li><Link to="#">SPA</Link></li>
-                                        <li><Link to="#">Penthouse</Link></li>
-
+                                    <div className="nav-link" style={{ cursor: "pointer" }}>Category <i className="fas fa-chevron-down"></i></div>
+                                    <ul className={`sub-ul ${showCategory ? "show" : ""}`}>
+                                        <li><Link to="#" onClick={() => handleScrollToElement("architectures")}>Architectures</Link></li>
+                                        <li><Link to="#" onClick={() => handleScrollToElement("amenities")}>Amenities</Link></li>
+                                        <li><Link to="#" onClick={() => handleScrollToElement("apartment")}>Apartment</Link></li>
+                                        <li><Link to="#" onClick={() => handleScrollToElement("gym")}>Gym</Link></li>
                                     </ul>
                                 </li>
                                 <li className="nav-item">
@@ -45,7 +55,7 @@ const Header = () => {
                 </nav>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default Header;

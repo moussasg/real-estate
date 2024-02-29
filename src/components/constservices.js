@@ -66,7 +66,7 @@ const Serviceslist = () => {
         <div className="col-md-6 order-md-2">
             <img src={spa} alt="spa" className="img-fluid rounded-end"/>
         </div>
-        <div className="col-md-6 order-md-1">
+        <div className="col-md-6 order-md-1 p-4">
             <h2 style={{ color: '#212529', fontWeight: 'bold' }}>Why Choose DAMAC Properties?</h2>
             <p style={{ color: '#6c757d' }}>DAMAC Properties has been at the forefront of the Middle East's luxury real estate market since 2002, delivering luxury residential, commercial, and leisure properties across the region.</p>
             <ul style={{ color: '#6c757d' }}>

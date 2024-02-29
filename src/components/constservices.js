@@ -59,6 +59,28 @@ const Serviceslist = () => {
         <br></br>
         <Typewriter/>
         <br></br>
+        <br></br>
+
+        <div className="container">
+    <div className="row align-items-center">
+        <div className="col-md-6 order-md-2">
+            <img src={spa} alt="spa" className="img-fluid rounded-end"/>
+        </div>
+        <div className="col-md-6 order-md-1">
+            <h2 style={{ color: '#212529', fontWeight: 'bold' }}>Why Choose DAMAC Properties?</h2>
+            <p style={{ color: '#6c757d' }}>DAMAC Properties has been at the forefront of the Middle East's luxury real estate market since 2002, delivering luxury residential, commercial, and leisure properties across the region.</p>
+            <ul style={{ color: '#6c757d' }}>
+                <li>46,000 Homes delivered</li>
+                <li>33,000 In planning and progress</li>
+                <li>100+ Awards received</li>
+            </ul>
+            <p style={{ color: '#6c757d' }}>As of 30th June, 2023</p>
+        </div>
+    </div>
+</div>
+<br></br>
+<br></br>
+
         <h1 className='text-center'>Category</h1>
         <br></br>
         <div className="row">

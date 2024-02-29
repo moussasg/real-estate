@@ -458,7 +458,7 @@ section {
 
 
 .page-top{
-  background: #364465;
+  background: #27282e;
   padding: 50px;
   color: white;
 }
@@ -590,9 +590,7 @@ section {
   display: flex;
   align-items: center;
 }
-.about-item{
-  padding: 30px;
-}
+
 /* About End */
 
 

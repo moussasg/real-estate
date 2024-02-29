@@ -20,21 +20,21 @@ const Contact = () => {
                                     <div className="contact-item">
                                         <i className="fas fa-envelope"></i>
                                         <h5>Mail</h5>
-                                        <h6>info@info.com</h6>
+                                        <h6>damac@info.com</h6>
                                     </div>
                                 </div>
                                 <div className="col-lg-4">
                                     <div className="contact-item">
                                         <i className="fas fa-map-marker-alt"></i>
                                         <h5>Address</h5>
-                                        <h6>Lorem Ipsum</h6>
+                                        <h6>dubai, uae</h6>
                                     </div>
                                 </div>
                                 <div className="col-lg-4">
                                     <div className="contact-item">
                                         <i className="fas fa-phone-alt"></i>
                                         <h5>Phone</h5>
-                                        <h6>00000000000</h6>
+                                        <h6>+971 4 520 5400</h6>
                                     </div>
                                 </div>
                             </div>
@@ -58,7 +58,7 @@ const Contact = () => {
                                     <textarea type="text" className="ta-contact" rows="4"></textarea>
                                 </div>
                                 <div className="col-lg-12">
-                                    <button className="btn-contact">Send Message</button>
+                                    <button>Send Message</button>
                                 </div>
                             </div>
                         </div>

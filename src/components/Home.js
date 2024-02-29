@@ -10,7 +10,7 @@ import Gym from "./Gym"
 
 const Home=()=> {
     return (
-        <div style={{width:"100vw"}}> 
+        <div style={{width:"100vw" , overflowX:'hidden'}}> 
             <Banner/>
             <Serviceslist/>
             <Subscribe/>

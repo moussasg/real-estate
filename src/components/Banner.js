@@ -34,7 +34,7 @@ const Banner = () => {
     backgroundImage: `url(${banner})`, 
     backgroundSize: 'cover', 
     backgroundPosition: 'center',
-    width: '100%',
+    width: '100vw',
     height:"100vh"
 }}>
 </div>

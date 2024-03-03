@@ -11,7 +11,7 @@ import React, { useEffect } from 'react';
 /*
 */
 function App() {
-  useEffect(() => {
+  useEffect( () => {
     // Import the WOW.js library
     const WOW = require('wowjs');
 
@@ -20,15 +20,11 @@ function App() {
     const wowInstance = new WOW.WOW({
         live: false
     });
-
+// false=> animations seront simplement déclenchées une seule fois au chargement initial
     // Initialize the WOW.js library to animate elements
     wowInstance.init();
 
     // Cleanup function to remove any event listeners or timers when the component unmounts
-    return () => {
-        // Typically, the WOW.js library doesn't require cleanup, but it's good practice to clean up after yourself
-        // In this case, there are no event listeners or timers to clean up, so it's empty.
-    };
 }, []);
   return (
     <Router>

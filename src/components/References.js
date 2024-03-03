@@ -74,7 +74,8 @@ const References = () => {
   return (
     <section className="section-references">
       <div className="container">
-        <h1 className='text-center' style={{color:"#3a4867de"}} id='apartment'>Apartments</h1>
+        <h1 className='text-center title-category' id='apartment'>Apartments</h1>
+        <p className='text-center'>Discover your ideal living space in our thoughtfully designed apartments, featuring modern finishes, spacious layouts, and breathtaking views, providing the perfect backdrop for your urban lifestyle.</p>
         <br></br>
         <div className="row">
           <div className="col-lg-12">

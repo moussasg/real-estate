@@ -55,7 +55,8 @@ const FlatList = () => {
         <section className="section-all-re">
             <div className="container">
                 <br></br>
-                <h1 class='text-center' style={{color:"#3a4867de"}} id='amenities'>Amenities</h1>
+                <h1 class='text-center title-category' id='amenities'>Amenities</h1>
+                <p className='text-center'>Elevate your lifestyle with our exceptional amenities, ranging from state-of-the-art fitness centers and rejuvenating spas to elegant lounges and serene outdoor spaces, all designed to cater to your every need.</p>
                 <br></br>
                 <div className="row">
                     {flatsData.map(flat => (

@@ -44,7 +44,8 @@ const TeamList = () => {
   return (
     <section className="section-teams">
       <div className="container">
-        <h1 className="text-center" style={{color:"#3a4867de"}} id='architectures'>Architectures</h1>
+        <h1 className="text-center title-category" id='architectures'>Architectures</h1>
+        <p className='text-center'>Explore our meticulously designed properties, crafted by renowned architects to blend functionality with aesthetic appeal, ensuring a timeless and sophisticated living experience</p>
         <br></br>
         <div className="row">
           {teamItems.map((item, index) => (

@@ -6,7 +6,8 @@ export default function Gym() {
   return (
     <div>
      <div class="container">
-        <h1 class='text-center text-muted-50 wow animate__animated animate__fadeInUp animate__slow' style={{color:"#3a4867de"}} id='gym'>Gym</h1>
+        <h1 class='text-center text-muted-50 wow animate__animated animate__fadeInUp animate__slow title-category'  id='gym'>Gym</h1>
+        <p class='text-center'>Stay active and energized in our fully equipped fitness center, complete with cutting-edge equipment, personal training services, and group fitness classes, ensuring you can achieve your health and wellness goals effortlessly.</p>
         <br></br>
   <div class="row align-items-center">
     <div class="col-md-6 wow animate__animated animate__fadeInLeft animate__slow">

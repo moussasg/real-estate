@@ -80,6 +80,8 @@ const Serviceslist = () => {
 
         <h1 className='text-center wow animate__animated animate__fadeInUp'>Category</h1>
         <br></br>
+        <p className='text-center'>Explore our seven unique realms: from striking architectures to state-of-the-art amenities, welcoming lobby, luxurious apartments, modern gym, relaxing spa, and sumptuous penthouses. Welcome to a world where every detail is crafted for your comfort and pleasure.</p>
+        <br></br>
         <div className="row wow animate__animated animate__fadeInUp animate__slow">
           {services.map((item, index) => (
             <Services key={index} image={item.image} title={item.title} description={item.description} />

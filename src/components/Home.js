@@ -7,6 +7,8 @@ import Subscribe from "./Subscribe"
 import Prices from "./prices"
 import Serviceslist from "./constservices"
 import Gym from "./Gym"
+import Lobby from "./Lobby"
+import Spa from "./spa"
 
 const Home=()=> {
     return (
@@ -14,8 +16,10 @@ const Home=()=> {
             <Banner/>
             <Serviceslist/>
             <Subscribe/>
+            <Lobby/>
             <FlatList/>
             <Gym/>
+            <Spa/>
             <TeamList/>
             <References/>
             <Prices/>

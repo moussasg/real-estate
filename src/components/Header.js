@@ -10,7 +10,7 @@ const Header = () => {
   const toggleCategory = () => {
     setShowCategory(!showCategory); // when you click in button it will be true
   };
-
+//
   const handleScrollToElement = (id) => {
     const element = document.getElementById(id);
     if (element) {

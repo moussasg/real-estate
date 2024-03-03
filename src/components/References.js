@@ -24,24 +24,14 @@ const References = () => {
       desciption: "Know More",
     },
     {
+      image: eventfoor,
+      desciption: "",
+    },
+    {
       image: eventfive,
-    },
-    {
-      image: eventfoor,
       desciption: "",
     },
-    {
-      image: eventfoor,
-      desciption: "",
-    },
-    {
-      image: eventfoor,
-      desciption: "",
-    },
-    {
-      image: eventfoor,
-      desciption: "",
-    },
+
   ];
   const settings = {
     infinite: true,

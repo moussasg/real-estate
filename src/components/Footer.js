@@ -8,8 +8,8 @@ const Footer = () => {
           <div className="col-lg-3 col-md-6">
             <img src={damaclogo} alt="dmaclogo" className="w-50"></img>
             <span className="footer-other-text d-block mt-3 mb-3">
-              Saphire Damac: A Haven of Luxury Living Discover Exquisite Living:
-              Saphire Damac - Where Luxury Meets Lifestyle
+              Sapphire Damac: A Haven of Luxury Living Discover Exquisite Living:
+              Sapphire Damac - Where Luxury Meets Lifestyle
             </span>
             <div className="footer-social">
               <div className="footer-social-item">

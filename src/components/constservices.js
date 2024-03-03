@@ -51,7 +51,7 @@ const Serviceslist = () => {
   return (
     <section className="section-teams">
       <div className="container">
-        <h1 className='text-center wow animate__animated animate__fadeInUp'>THE SAPHIRE</h1>
+        <h1 className='text-center wow animate__animated animate__fadeInUp'>THE SAPPHIRE</h1>
         <p className='text-center wow animate__animated animate__fadeInUp'>SHEIKH ZAYED ROAD</p>
         <br></br>
         <Typewriter/>

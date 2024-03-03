@@ -44,8 +44,8 @@ const Banner = () => {
                     <div className="row">
                         <div className="col-lg-6 mx-auto wow animate__animated animate__fadeInUp">
                             <div className="banner-area text-center pt-4 pb-4">
-                                <p>Saphire Damac: A Haven of Luxury Living</p>
-                                <h4 className="mt-2 mb-4">Discover Exquisite Living: Saphire Damac - Where Luxury Meets Lifestyle</h4>
+                                <p>Sapphire Damac: A Haven of Luxury Living</p>
+                                <h4 className="mt-2 mb-4">Discover Exquisite Living: Sapphire Damac - Where Luxury Meets Lifestyle</h4>
                                 <div className="search-area">
                                     <input value={word} onChange={(e) => findSearch(e)} type="text" className="inp-search" placeholder="Search" />
                                     <button className="btn-search m-2">Search All</button>

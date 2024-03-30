@@ -134,7 +134,7 @@ const Header = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="https://www.gogovilage.com/post/exploring-nature-s-wonderland-a-journey-through-gogo-village" target="_blank">
+                  <a className="nav-link" rel="noopener noreferrer" href="https://www.gogovilage.com/post/exploring-nature-s-wonderland-a-journey-through-gogo-village" target="_blank">
                     Blog
                   </a>
                 </li>

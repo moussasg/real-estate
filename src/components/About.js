@@ -16,7 +16,7 @@ const About = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 wow animate__animated animate__fadeInRight">
-                            <img src={logo} alt="product" className="w-100" />
+                            <img src={logo} alt="logo-about" className="w-100" />
                         </div>
                         <div className="col-lg-6 wow animate__animated animate__fadeInLeft p-3">
                             <div className="about-item">

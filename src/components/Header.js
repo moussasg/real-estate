@@ -133,6 +133,11 @@ const Header = () => {
                     Contact
                   </Link>
                 </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="https://www.gogovilage.com/post/exploring-nature-s-wonderland-a-journey-through-gogo-village" target="_blank">
+                    Blog
+                  </a>
+                </li>
               </ul>
             </div>
           </div>

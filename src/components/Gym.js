@@ -12,7 +12,7 @@ export default function Gym() {
   <div class="row align-items-center">
     <div class="col-md-6 wow animate__animated animate__fadeInLeft animate__slow">
         
-      <img src={gymone} class="img-fluid" alt=""/>
+      <img src={gymone} class="img-fluid" alt="gym-one"/>
     </div>
     <div class="col-md-6">
       <div class="d-flex justify-content-center p-2 wow animate__animated animate__fadeInRight animate__slow">
@@ -23,7 +23,7 @@ export default function Gym() {
 
   <div class="row align-items-center">
     <div class="col-md-6 order-md-2 wow animate__animated animate__fadeInRight animate__slow">
-      <img src={gymtwo} class="img-fluid" alt=""/>
+      <img src={gymtwo} class="img-fluid" alt="gym-two"/>
     </div>
     <div class="col-md-6 order-md-1">
       <div class="d-flex justify-content-center wow animate__animated animate__fadeInLeft animate__slow">

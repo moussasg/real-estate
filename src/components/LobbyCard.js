@@ -7,7 +7,7 @@ export default function LobbyCard({ image, title, description }) {
         <div className='col-md-4 text-center text-md-start'>
           <img
             src={`${image}`}
-            alt=''
+            alt='LobbyCard'
             className='rounded w-75 h-75 mb-3 wow animate__animated animate__fadeInRight animate__slow'
           />
         </div>

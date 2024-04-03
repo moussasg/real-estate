@@ -103,26 +103,6 @@ const Header = () => {
                             Apartment
                           </Link>
                         </li>
-                      
-                     
-                        {/* 
-                        <li>
-                          <Link
-                            to="#"
-                            onClick={() => handleScrollToElement("gym")}
-                          >
-                            SPA
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            to="#"
-                            onClick={() => handleScrollToElement("gym")}
-                          >
-                            Penthouse
-                          </Link>
-                        </li>
-                        */}
                       </ul>
                     </li>
                   )}
@@ -134,9 +114,21 @@ const Header = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" rel="noopener noreferrer" href="https://www.gogovilage.com/post/exploring-nature-s-wonderland-a-journey-through-gogo-village" target="_blank">
-                    Blog
+                <div className="nav-link">
+                        Blogs 
+                        <i className="fas fa-chevron-down"></i>
+                      </div>
+                <ul className={`sub-ul ${showCategory ? "show" : ""}`}>
+                  <li>
+                    <a className="nav-link" rel="noopener noreferrer" href="https://www.gogovilage.com/post/exploring-nature-s-wonderland-a-journey-through-gogo-village" target="_blank">gogovilage</a>
+                  </li>
+                  <li>
+                  <a className="nav-link" rel="noopener noreferrer" href="https://www.be1luxury.com/blog" target="_blank">
+                  be1luxury
                   </a>
+                  </li>
+                </ul>
+                  
                 </li>
               </ul>
             </div>
